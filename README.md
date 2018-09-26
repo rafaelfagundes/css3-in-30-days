@@ -3,5 +3,5 @@
 You can find the tutorials in this playlist:
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU
 
-The work I did:
+My evaluation:
 https://infallible-sinoussi-b86d23.netlify.com/
