@@ -1,0 +1,61 @@
+* {
+  font-family: "Roboto";
+  text-align: center;
+}
+body{
+  background-color: #f2395a;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bubblegum Sans', cursive;
+}
+h1 {
+  margin-top: 100px;
+  color: white;
+  font-size: 5rem;
+  line-height: 5rem;
+  text-shadow: 0 1px 0 hsl(52,7%,20%), 0 2px 0 hsl(52,7%,18%), 0 3px 0 hsl(52,7%,16%), 0 4px 0 hsl(52,7%,14%), 0 5px 0 hsl(52,7%,12%), 0 6px 0 hsl(52,7%,10%), 0 7px 0 hsl(52,7%,8%), 0 8px 0 hsl(52,7%,6%), 0 0 5px rgba(0,0,0,.05), 0 1px 3px rgba(0,0,0,.2), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.2), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.3);
+}
+h2 {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  text-shadow: 1px 1px 5px #999;
+}
+ul{
+  list-style: none;
+}
+li a{
+  color: white;
+  line-height: 3.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-shadow: 0px 0px 4px rgba(0,0,0,.1);
+  font-weight: 700;
+  transform: skew(-5deg, -5deg) rotate(5deg);
+  transform-origin: center center;
+}
+li a:hover{
+  text-decoration: underline;
+}
+.playlist-link{
+  background: #00b3b4;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border: 2px solid rgba(255,255,255,8);
+  box-shadow: 0px 0px rgba(0,0,0,.5);
+  margin-bottom: 40px;
+  display: inline-block;
+  text-shadow: 1px 1px 1px #999;
+}
+
+.day{
+  font-family: 'Roboto Condensed';
+  background: white;
+  border-radius: 5px;
+  color: #f2395a;
+  padding: 5px 15px;
+  margin-right: 5px;
+  text-shadow: none;
+}
