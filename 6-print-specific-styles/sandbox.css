@@ -1,0 +1,148 @@
+/* ========================================
+
+CODE YOUR STYLES BELOW!
+
+====================================== */
+
+/* @media screen { */
+@media print {
+  * {
+    transition: none !important;
+  }
+
+  body,
+  section,
+  .final-result,
+  .info,
+  footer {
+    background-color: white;
+    background-image: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    width: 100%;
+    border: none;
+    transform: none;
+    max-width: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Alegreya Sans';
+    color: rgb(54, 51, 51);
+    transform: none;
+    text-shadow: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: none;
+    position: initial;
+    background: none;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0 20px !important;
+  }
+
+  h1 small {
+    color: rgb(54, 51, 51);
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    margin: 40px 0 20px !important;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin: 40px 0 20px !important;
+  }
+
+  h4 {
+    font-size: 2rem;
+    margin: 40px 0 20px !important;
+  }
+
+  p {
+    font-family: 'Alegreya';
+    color: rgb(80, 73, 73) !important;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  a {
+    padding: 0;
+    margin: 0;
+    transform: none;
+    border: none;
+    box-shadow: none;
+    font-family: 'Alegreya';
+    color: rgb(80, 73, 73) !important;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  a:hover {
+    transform: none !important;
+    border: none;
+    box-shadow: none !important;
+  }
+
+  a::after {
+    content: " ["attr(href) "]";
+    font-style: italic;
+  }
+
+  section {
+    border-bottom: none;
+  }
+
+  footer:hover .made-by,
+  footer:hover .course,
+  footer:hover .copyright {
+    padding-left: 0px !important;
+  }
+
+
+  footer .made-by,
+  footer .made-by a,
+  footer .made-by a:hover,
+  footer .copyright,
+  footer .course {
+    font-family: 'Alegreya';
+    color: rgb(80, 73, 73) !important;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    transform: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  footer a:link,
+  footer a:visited {
+    padding: 0;
+  }
+
+  body::before,
+  section::before,
+  section::after,
+  .final-result::before,
+  .final-result::after,
+  .final-result h2,
+  .info::before,
+  .info::after,
+  .info h2,
+  footer #logo {
+    display: none;
+  }
+}
