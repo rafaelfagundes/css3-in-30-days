@@ -1,0 +1,310 @@
+/* ========================================
+
+CODE YOUR STYLES BELOW!
+
+====================================== */
+
+
+#wahoo {
+  outline: none;
+}
+
+#wahoo:active + .luigi-block {
+  animation: wahooLuigi 1.5s ease-in-out 1;
+}
+
+@keyframes wahooLuigi {
+  0% { left: 0; bottom: 0; transform: rotate(0); transform: scaleX(1)}
+  25% { left: 200px; bottom: 200px; transform: rotate(-25deg) scaleX(1)}
+  50% { left: 400px; bottom: 0; transform: rotate(0) scaleX(1)}
+  75% { left: 400px; bottom: 0; transform: rotate(0) scaleX(-1)}
+  100% { left: 0px; bottom: 0; transform: rotate(0) scaleX(1)}
+}
+
+.luigi-block {
+  display: inline-block;
+  position: relative;
+  margin: 80px auto;
+  width: 16em;
+  height: 16em;
+}
+
+.luigi {
+  display: block;
+  width: 1em;
+  height: 1em;
+
+  box-shadow: 0em 0em transparent, /* Line 1 */
+              1em 0em transparent,
+              2em 0em transparent,
+              3em 0em transparent,
+              4em 0em transparent,
+              5em 0em #22b14c,
+              6em 0em #22b14c,
+              7em 0em #22b14c,
+              8em 0em #22b14c,
+              9em 0em #22b14c,
+              10em 0em transparent,
+              11em 0em transparent,
+              12em 0em transparent,
+              13em 0em transparent,
+              14em 0em transparent,
+              15em 0em transparent, /* Line 1 */
+
+              0em 1em transparent, /* Line 2 */
+              1em 1em transparent,
+              2em 1em transparent,
+              3em 1em transparent,
+              4em 1em #22b14c,
+              5em 1em #22b14c,
+              6em 1em #22b14c,
+              7em 1em #22b14c,
+              8em 1em #22b14c,
+              9em 1em #22b14c,
+              10em 1em #22b14c,
+              11em 1em #22b14c,
+              12em 1em #22b14c,
+              13em 1em transparent,
+              14em 1em transparent,
+              15em 1em transparent, /* Line 2 */
+
+              0em 2em transparent, /* Line 3 */
+              1em 2em transparent,
+              2em 2em transparent,
+              3em 2em transparent,
+              4em 2em #462300,
+              5em 2em #462300,
+              6em 2em #462300,
+              7em 2em #ffc20e,
+              8em 2em #ffc20e,
+              9em 2em #0a0a0a,
+              10em 2em #ffc20e,
+              11em 2em transparent,
+              12em 2em transparent,
+              13em 2em transparent,
+              14em 2em transparent,
+              15em 2em transparent, /* Line 3 */
+              
+              0em  3em transparent, /* Line 4 */
+              1em  3em transparent,
+              2em  3em transparent,
+              3em  3em #462300,
+              4em  3em #ffc20e,
+              5em  3em #462300,
+              6em  3em #ffc20e,
+              7em  3em #ffc20e,
+              8em  3em #ffc20e,
+              9em  3em #0a0a0a,
+              10em 3em #ffc20e,
+              11em 3em #ffc20e,
+              12em 3em #ffc20e,
+              13em 3em transparent,
+              14em 3em transparent,
+              15em 3em transparent, /* Line 4 */
+
+              0em  4em transparent, /* Line 5 */
+              1em  4em transparent,
+              2em  4em transparent,
+              3em  4em #462300,
+              4em  4em #ffc20e,
+              5em  4em #462300,
+              6em  4em #462300,
+              7em  4em #ffc20e,
+              8em  4em #ffc20e,
+              9em  4em #ffc20e,
+              10em 4em #0a0a0a,
+              11em 4em #ffc20e,
+              12em 4em #ffc20e,
+              13em 4em #ffc20e,
+              14em 4em transparent,
+              15em 4em transparent, /* Line 5 */
+
+              0em  5em transparent, /* Line 6 */
+              1em  5em transparent,
+              2em  5em transparent,
+              3em  5em transparent,
+              4em  5em #462300,
+              5em  5em #ffc20e,
+              6em  5em #ffc20e,
+              7em  5em #ffc20e,
+              8em  5em #ffc20e,
+              9em  5em #0a0a0a,
+              10em 5em #0a0a0a,
+              11em 5em #0a0a0a,
+              12em 5em #0a0a0a,
+              13em 5em transparent,
+              14em 5em transparent,
+              15em 5em transparent, /* Line 6 */
+
+              0em  6em transparent, /* Line 7 */
+              1em  6em transparent,
+              2em  6em transparent,
+              3em  6em transparent,
+              4em  6em transparent,
+              5em  6em #ffc20e,
+              6em  6em #ffc20e,
+              7em  6em #ffc20e,
+              8em  6em #ffc20e,
+              9em  6em #ffc20e,
+              10em 6em #ffc20e,
+              11em 6em transparent,
+              12em 6em transparent,
+              13em 6em transparent,
+              14em 6em transparent,
+              15em 6em transparent, /* Line 7 */
+
+              0em  7em transparent, /* Line 8 */
+              1em  7em transparent,
+              2em  7em transparent,
+              3em  7em transparent,
+              4em  7em #22b14c,
+              5em  7em #22b14c,
+              6em  7em blue,
+              7em  7em #22b14c,
+              8em  7em #22b14c,
+              9em  7em blue,
+              10em 7em #22b14c,
+              11em 7em #22b14c,
+              12em 7em transparent,
+              13em 7em transparent,
+              14em 7em transparent,
+              15em 7em transparent, /* Line 8 */
+
+              0em  8em transparent, /* Line 9 */
+              1em  8em transparent,
+              2em  8em transparent,
+              3em  8em #22b14c,
+              4em  8em #22b14c,
+              5em  8em #22b14c,
+              6em  8em blue,
+              7em  8em #22b14c,
+              8em  8em #22b14c,
+              9em  8em blue,
+              10em 8em #22b14c,
+              11em 8em #22b14c,
+              12em 8em #22b14c,
+              13em 8em transparent,
+              14em 8em transparent,
+              15em 8em transparent, /* Line 9 */
+
+              0em  9em transparent, /* Line 10 */
+              1em  9em transparent,
+              2em  9em #22b14c,
+              3em  9em #22b14c,
+              4em  9em #22b14c,
+              5em  9em #22b14c,
+              6em  9em blue,
+              7em  9em blue,
+              8em  9em blue,
+              9em  9em blue,
+              10em 9em #22b14c,
+              11em 9em #22b14c,
+              12em 9em #22b14c,
+              13em 9em #22b14c,
+              14em 9em transparent,
+              15em 9em transparent, /* Line 10 */
+
+              0em  10em transparent, /* Line 11 */
+              1em  10em transparent,
+              2em  10em #ffc20e,
+              3em  10em #ffc20e,
+              4em  10em #22b14c,
+              5em  10em blue,
+              6em  10em yellow,
+              7em  10em blue,
+              8em  10em blue,
+              9em  10em yellow,
+              10em 10em blue,
+              11em 10em #22b14c,
+              12em 10em #ffc20e,
+              13em 10em #ffc20e,
+              14em 10em transparent,
+              15em 10em transparent, /* Line 11 */
+
+              0em  11em transparent, /* Line 12 */
+              1em  11em transparent,
+              2em  11em #ffc20e,
+              3em  11em #ffc20e,
+              4em  11em #ffc20e,
+              5em  11em blue,
+              6em  11em blue,
+              7em  11em blue,
+              8em  11em blue,
+              9em  11em blue,
+              10em 11em blue,
+              11em 11em #ffc20e,
+              12em 11em #ffc20e,
+              13em 11em #ffc20e,
+              14em 11em transparent,
+              15em 11em transparent, /* Line 12 */
+
+              0em  12em transparent, /* Line 13 */
+              1em  12em transparent,
+              2em  12em #ffc20e,
+              3em  12em #ffc20e,
+              4em  12em blue,
+              5em  12em blue,
+              6em  12em blue,
+              7em  12em blue,
+              8em  12em blue,
+              9em  12em blue,
+              10em 12em blue,
+              11em 12em blue,
+              12em 12em #ffc20e,
+              13em 12em #ffc20e,
+              14em 12em transparent,
+              15em 12em transparent, /* Line 13 */
+
+              0em  13em transparent, /* Line 14 */
+              1em  13em transparent,
+              2em  13em transparent,
+              3em  13em transparent,
+              4em  13em blue,
+              5em  13em blue,
+              6em  13em blue,
+              7em  13em transparent,
+              8em  13em transparent,
+              9em  13em blue,
+              10em 13em blue,
+              11em 13em blue,
+              12em 13em transparent,
+              13em 13em transparent,
+              14em 13em transparent,
+              15em 13em transparent, /* Line 14 */
+
+              0em  14em transparent, /* Line 15 */
+              1em  14em transparent,
+              2em  14em transparent,
+              3em  14em #462300,
+              4em  14em #462300,
+              5em  14em #462300,
+              6em  14em transparent,
+              7em  14em transparent,
+              8em  14em transparent,
+              9em  14em transparent,
+              10em 14em #462300,
+              11em 14em #462300,
+              12em 14em #462300,
+              13em 14em transparent,
+              14em 14em transparent,
+              15em 14em transparent, /* Line 15 */
+
+              0em  15em transparent, /* Line 16 */
+              1em  15em transparent,
+              2em  15em #462300,
+              3em  15em #462300,
+              4em  15em #462300,
+              5em  15em #462300,
+              6em  15em transparent,
+              7em  15em transparent,
+              8em  15em transparent,
+              9em  15em transparent,
+              10em 15em #462300,
+              11em 15em #462300,
+              12em 15em #462300,
+              13em 15em #462300,
+              14em 15em transparent,
+              15em 15em transparent /* Line 16 */
+              ;
+              
+}
