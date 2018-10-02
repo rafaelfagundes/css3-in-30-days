@@ -1,0 +1,37 @@
+/* ========================================
+
+CODE YOUR STYLES BELOW!
+
+====================================== */
+
+
+.sticky-sidebar-lesson{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* clear fix */
+.sticky-sidebar-lesson{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.sandbox{
+  width: 60%;
+  margin: 0 0 40px 0;
+  float: left;
+}
+
+.sticky-sidebar{
+  background-color: rgb(231, 238, 241);
+  box-sizing: border-box; 
+  padding: 40px 40px 60px;
+  border-radius: 2px;
+  box-shadow: 0 12px 0 -6px rgba(231, 238, 241,.2);
+
+  position: fixed;
+  right: 5%;
+  width: 36%;
+  float: right;
+}
