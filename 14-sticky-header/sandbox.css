@@ -16,7 +16,7 @@ CODE YOUR STYLES BELOW!
   background: #f2395a;
   opacity: .95;
   height: 180px;
-  box-shadow: 3px 0px 10px #c5314d;
+  box-shadow: 3px 0px 10px rgba(0,0,0,.2);
 }
 
 .sticky-header h1{
