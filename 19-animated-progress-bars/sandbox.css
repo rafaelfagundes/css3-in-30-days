@@ -1,0 +1,156 @@
+/* ========================================
+
+CODE YOUR STYLES BELOW!
+
+====================================== */
+
+
+.animation-bar-1{
+  position: relative;
+  width: 100%;
+  background-color: #dadada;
+  border-radius: 50px;
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 5px;
+  box-shadow: inset 1px 1px 3px #AAA;
+  overflow: hidden;
+}
+
+.animation-bar-1 span{
+  position: relative;
+  height: 20px;
+  background-image: linear-gradient(to bottom, red, rgb(189, 0, 0));
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  animation: loading 3s linear;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+  .animation-bar-1 span::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    background-image: linear-gradient(45deg, #fff 25%,
+                                      rgba(0,0,0,0) 25%,
+                                      rgba(0,0,0,0) 50%,
+                                      #fff 50%,
+                                      #fff 75%,
+                                      rgba(0,0,0,0) 75%,
+                                      rgba(0,0,0,0)
+                                      );
+    background-size: 30px 30px;
+    opacity: .3;
+    animation: progressBar 4s linear infinite;
+  }
+
+
+/* ANIMATION KEYFRAMES */
+
+
+@keyframes loading {
+  0%{ width: 0%; 
+    border-radius: 50px 0 0 50px;
+  }
+  90%{
+    border-radius: 50px 0 0 50px;
+  }
+  100%{
+    width: 100%;
+    border-radius: 50px;
+  }
+}
+
+@keyframes progressBar {
+  0% {
+    background-position-x: 0;
+  }
+  25%{
+    background-position-x: 30px;
+  }
+  50% {
+    background-position-x: calc(30px * 2);
+  }
+  75%{
+    background-position-x: calc(30px * 3);
+  }
+  100% {
+    background-position-x: calc(30px * 4);
+  } 
+}
+
+.animation-bar-2 {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  position: relative;
+}
+.animation-bar-2 span {
+  animation: progress-anim-2 10s infinite ease;
+  background-color: #00e6e7;
+  background-image: linear-gradient(to bottom, rgb(23, 172, 43), rgb(18, 133, 33));
+  background-size: 100%;
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  vertical-align: middle;
+}
+.animation-bar-2 span:before {
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-top-color: rgba(0, 0, 0, 1);
+  border: 10px solid transparent;
+  bottom: 100%;
+  content: "";
+  display: inline-block;
+  height: 0;
+  position: absolute;
+  right: 0;
+  width: 0;
+}
+.animation-bar-2 span:after {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 3px;
+  bottom: calc(100% + 5px);
+  color: #FFFFFF;
+  content: attr(data-label);
+  display: inline-block;
+  font-size: 0.8em;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+
+@-webkit-keyframes progress-anim-2 {
+  0% {
+    width: 20%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes progress-anim-2 {
+  0% {
+    width: 20%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 20%;
+  }
+}
