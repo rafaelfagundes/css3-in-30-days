@@ -1,5 +1,51 @@
 /* ========================================
 
-    CODE YOUR STYLES BELOW!
+CODE YOUR STYLES BELOW!
 
-   ====================================== */
+====================================== */
+
+
+.triangle {
+  position: relative;
+  height: 300px;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.triangle div {
+  position: absolute;
+  top: 0;
+  background-color: red;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  line-height: 100px;
+  text-align: center;
+  font-size: .8em;
+  color: transparent;
+  transition: all .7s ease;
+}
+
+
+.top{
+  z-index: 2;
+}
+
+.mid{
+  z-index: 1;
+}
+
+.triangle:hover div{
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+.triangle:hover .mid{
+  top: 100px;
+  background-color: black;
+}
+
+.triangle:hover .bottom{
+  top: 200px;
+  background-color: red;
+}
