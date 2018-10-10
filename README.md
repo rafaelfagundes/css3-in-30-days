@@ -1,6 +1,6 @@
 # CSS3 in 30 Days
 
-You can find the tutorials in this playlist:
+You can find tutorials in this playlist:
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU
 
 My evaluation:
